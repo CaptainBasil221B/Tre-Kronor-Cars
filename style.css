@@ -21,7 +21,7 @@ body {
 
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -121,6 +121,7 @@ body {
   margin-top: 70px;
   margin-right: 80px;
   animation: showup 9s;
+  max-width: 100%;
 }
 
 .container h2 {
@@ -207,6 +208,7 @@ body {
     text-align: center;
     color: #143F6B;
     margin-bottom: 1rem;
+    
   }
 
   .icon:hover {
@@ -263,6 +265,24 @@ footer .container-small {
 }
 
 .flag {
-  width: 3%;
+  width: 3rem;
   margin: 25px 15px;
 }
+
+.services{
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.services img{
+  position: absolute;
+  z-index: -2;
+}
+
+.services h2 {
+  position: absolute;
+  z-index: -1;
+}
+
