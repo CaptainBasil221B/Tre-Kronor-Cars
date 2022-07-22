@@ -91,13 +91,13 @@ body {
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
+  width: 100%;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
-  margin-bottom: 20px;
   z-index: -2;
 }
 
@@ -183,6 +183,10 @@ body {
 
 }
 
+#email {
+  color: #fff;
+}
+
   /* Features Section */
 
   #features {
@@ -216,22 +220,26 @@ body {
     transition: all 0.2s ease-in-out;
   }
 
-  /* Testimonial Section */
-  #features h1 {
-    text-align: center;
-  }
+/* Testimonial Section */
+#features h1 {
+  text-align: center;
+}
 
-  #testimonials h3 {
-    color: #fff;
-  }
+#testimonials h3 {
+  color: #fff;
+}
 
-  #testimonials p {
-    color: #fff;
-    text-align: right;
-  }
-  #testimonials {
-    background-color: #143F6B;
-  }
+#testimonials p {
+  color: #fff;
+  text-align: right;
+}
+#testimonials {
+  background-color: #143F6B;
+}
+
+#testimonial span{
+  position: absolute;
+}
 
 #testimonial-carousel span {
     font-size: 3rem;
@@ -257,11 +265,13 @@ body {
   }
 
   /* Footer Section */
+footer{
+  padding: 3.5em;
+}
 
 footer .container-small {
-  padding: 0;
   text-align: center;
-
+  padding: 35px auto;
 }
 
 .flag {
@@ -271,6 +281,7 @@ footer .container-small {
 
 .services{
   display: flex;
+  background-image: url(./images/car-6664121_1280.png);
   max-width: 100%;
   text-align: center;
   justify-content: flex-start;
