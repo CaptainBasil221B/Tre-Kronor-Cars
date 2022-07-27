@@ -128,7 +128,7 @@ body {
 
 .container img {
   margin-top: 70px;
-  margin-right: 80px;
+  /*margin-right: 80px;*/
   animation: showup 9s;
   max-width: 100%;
 }
@@ -336,7 +336,7 @@ footer .container-small {
   border-radius: 5px;
 }
 
-.row {
+.fila_autos {
   padding: 3rem;
   margin: 6rem;
 }
